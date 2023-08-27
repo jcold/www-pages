@@ -1,0 +1,26 @@
+content_dir: ./content
+base_dir: /site
+cfg:
+  daobox_site_assets: https://assets.daobox.cc/daobox-assets/0.0.1
+context:
+  - location:
+      - /docs/
+    qs:
+      __tpl: /book.html
+      nav: /docs/_nav.md
+      ajax: /docs/
+  - location:
+      - /docs/index.html
+    qs:
+      path: /docs/基础介绍.md
+  - location:
+      - /guwenguanzhi/
+    qs:
+      __tpl: /book.html
+      nav: /demo/古文观止/_nav.md
+      ajax: /guwenguanzhi/
+  - location:
+      - /guwenguanzhi/index.html
+    qs:
+      path: /demo/古文观止/师说.md
+      

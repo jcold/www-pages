@@ -1,0 +1,17 @@
+{
+  "name": "www-pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist/* && daobox-site serve --export --theme-dir theme/hope --dist-dir ./dist --stop-urls /site/ --stop-urls /docs/ --stop-urls /about/ ",
+    "local": "rm -rf dist/* && ~/Coder/yiibox/daobox-server-next/wz-server/target/debug/daobox-site serve --export --theme-dir theme/hope --dist-dir ./dist --stop-urls /site/ --stop-urls /docs/ --stop-urls /about/ ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "daobox-site": "^0.3.4"
+  }
+}

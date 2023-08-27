@@ -1,0 +1,41 @@
+{
+  "assets/book.7471372a.js.LICENSE.txt": "assets/book.7471372a.js.LICENSE.txt",
+  "book.css": "assets/book.7471372a.css",
+  "book.js": "assets/book.7471372a.js",
+  "download.css": "assets/download.a5758e77.css",
+  "download.js": "assets/download.a5758e77.js",
+  "entrypoints": {
+    "main": {
+      "assets": {
+        "css": [
+          "assets/main.7ef3c1aa.css"
+        ],
+        "js": [
+          "assets/main.7ef3c1aa.js"
+        ]
+      }
+    },
+    "download": {
+      "assets": {
+        "css": [
+          "assets/download.a5758e77.css"
+        ],
+        "js": [
+          "assets/download.a5758e77.js"
+        ]
+      }
+    },
+    "book": {
+      "assets": {
+        "css": [
+          "assets/book.7471372a.css"
+        ],
+        "js": [
+          "assets/book.7471372a.js"
+        ]
+      }
+    }
+  },
+  "main.css": "assets/main.7ef3c1aa.css",
+  "main.js": "assets/main.7ef3c1aa.js"
+}
